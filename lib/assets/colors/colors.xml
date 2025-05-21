@@ -1,0 +1,11 @@
+<resources>
+  <color name="SurfaceColors/OnSurface">#303030</color>
+  <color name="SurfaceColors/Surface">#FDFDFD</color>
+  <color name="SurfaceColors/SurfaceDim">#F6F6F6</color>
+  <color name="SurfaceColors/SurfaceContainerHighest">#FEFEFE</color>
+  <color name="SurfaceColors/OutlineVariant">#DADADA</color>
+  <color name="SurfaceColors/SurfaceContainer">#F4F4F4</color>
+  <color name="ColorVariables/Tertiary">#FFC241</color>
+  <color name="ErrorSuccessColors/Error">#E95062</color>
+  <color name="ErrorSuccessColors/OnError">#FDF0F2</color>
+</resources>
