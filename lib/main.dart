@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test_app/assets/gen/colors.gen.dart';
-import 'package:flutter_test_app/features/course_overview/course_overview_screen.dart';
+import 'package:flutter_test_app/main_screen.dart';
+import 'package:intl/date_symbol_data_local.dart';
 
-void main() {
+void main() async {
+  await initializeDateFormatting('de_DE', null);
   runApp(const MyApp());
 }
 
@@ -15,10 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: ColorName.surfaceColorsSurface,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const CourseOverviewScreen(),
+      home: const MainScreen(),
     );
   }
 }
